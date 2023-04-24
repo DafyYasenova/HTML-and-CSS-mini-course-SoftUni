@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+}
+nav {
+    background-color: #d3d3d3;
+}
+nav ul {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: #009900;
+    text-decoration: none;
+     padding: 10px 20px;
+     border-radius: 5px;
+    border-radius: 5px;
+}
+/* nav ul li a:focus, */
+nav ul li a:hover {
+    color: white;
+    background-color: #009900;
+
+    /* cursor: pointer; */
+    
+}
