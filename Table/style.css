@@ -1,0 +1,24 @@
+body{
+    font-family: 'Helvetica', sans-serif;
+    margin-left: 20px;
+  }
+
+  table, td, tr, th {
+    border: 1px solid #000000;
+    border-collapse: collapse;  
+    text-align: right;
+  }
+  
+  td, th {
+    padding: 5px; 
+  }
+  
+  .bold {
+    font-weight: bold;
+    text-align: center;
+  }
+tbody, tfoot {
+    text-align: right;
+}
+  
+  

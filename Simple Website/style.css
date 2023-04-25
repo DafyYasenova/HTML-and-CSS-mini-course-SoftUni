@@ -1,0 +1,47 @@
+body {  
+    font-family: 'Helvetica', sans-serif; 
+    margin: 0;   
+    padding: 0;
+}
+nav{
+    background-color: #234465;
+    padding: 15px;
+
+}
+nav ul li{
+    padding: 0 20px;
+    display: inline-block;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0;
+    padding: 10px
+}
+
+
+section {
+    width: 60%;
+    margin: 80px auto;
+}
+section h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+header p {
+    font-style: italic;
+}
+footer{
+    background-color: #234465;
+    padding: 8px;
+    text-align: center; 
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
