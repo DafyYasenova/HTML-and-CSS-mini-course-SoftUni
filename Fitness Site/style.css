@@ -1,0 +1,133 @@
+body {
+    background: #F0F1F5;
+    /* margin: 0; */
+    padding: 2rem, 12rem;
+    font-family: "Helvetica", sans-serif;
+    width: 1180px;
+    margin: 0 auto;
+
+}
+
+header>p {
+    color: #f9690e;
+    display: inline-block;
+    padding: 5px;
+}
+
+.fas fa-dumbbell {
+    padding-right: 10px;
+}
+
+nav {
+    display: inline-block;
+    width: 88%;
+    padding: 10px;
+
+}
+
+nav ul {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+    /* margin: 0; */
+
+
+}
+
+nav ul li a {
+    color: #f9690e;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+}
+
+main section:nth-child(1) {
+    background-image: url("picture.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: rem;
+    /* width: 1180px;
+   
+   height: 650px; */
+    background-size: cover;
+    background-position: center;
+    padding: 12rem 18rem;
+    text-align: center;
+}
+
+main section:nth-child(1) h1 {
+    color: white;
+    padding: auto;
+}
+
+main section:nth-child(1) span {
+    color: #f9690e;
+}
+
+main section button {
+    background-color: #f9690e;
+    border: none;
+    color: black;
+    font-size: 22px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+main section button:hover {
+    background-color: white;
+    color: #f9690e;
+    cursor: pointer;
+}
+
+main section:nth-child(2) article {
+    background-color: #f9690e;
+    color: white;
+    width: 29%;
+    display: inline-block;
+    padding: 24px;
+    font-family: "Helvetica", sans-serif;
+    text-align: center;
+
+}
+
+footer article:nth-child(1) {
+    width: 46%;
+    display: inline-block;
+}
+
+footer article:nth-child(2) {
+
+    display: inline-block;
+    text-align: right;
+
+    color: black;
+}
+
+footer ul {
+    width: 616px;
+    display: inline-block;
+    text-align: right;
+    padding-left: 10px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer article li a {
+    display: inline-block;
+    text-align: right;
+}
+
+footer ul li:not(:last-child) {
+    padding-right: 30px;
+}
+
+footer a i {
+    color: black;
+}
