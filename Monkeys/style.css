@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FAEBC8;
+}
+
+section {
+    background-color: white;
+    margin: 100px auto;
+    padding: 50px 25px;
+    box-shadow: 5px 2px 18px 5px #a76969;
+    border-radius: 10px;
+    width: 75%;
+    text-align: center;
+}
+
+section article {
+    
+    display: inline-block;
+    width: 20%;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section article p {
+    text-align: left;
+}
+
+img {
+    width: 100px;
+}
+
+.shadow {
+    text-align: left;
+    font-style: italic;
+    font-weight: 600;
+    color: #965a50;
+    text-shadow: 16px 16px 2px rgba(150, 150, 150, 1);
+    margin-bottom: 20px;
+
+}
